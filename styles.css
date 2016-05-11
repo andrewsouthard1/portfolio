@@ -1,0 +1,78 @@
+/*Remove margins and padding from the list, 
+and add a black background color */
+#taskbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+#home {
+	height: 850px;
+	text-align: center;
+	background: center;
+	background-image: url(bkskyline.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#homecontent {
+	margin: auto;
+}
+
+#about {
+	height: 850px;
+	text-align: center;
+	background: center;
+	background-image: url(vbridge.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#aboutcontent {
+	margin: auto;
+}
+
+#portfolio {
+	height: 850px;
+	text-align: center;
+	background: center;
+	background-image: url(bkskyline.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#portcontent {
+	margin: auto;
+}
+
+#contact {
+	height: 850px;
+	text-align: center;
+	background: center fixed;
+	background-image: url(vbridge.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contactcontent {
+	margin: auto;
+}
+
+li {
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
