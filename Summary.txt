@@ -1,0 +1,11 @@
+Summary
+
+My name is Andrew Southard, and I'm software developer living in Brooklyn, New York. I am currently enrolled at Pace University, working towards my Master’s Degree in Computer Science. At Pace I’ve learned how to code in Java, how to write SQL queries, and taken classes in algorithms and data structures. This summer I am learning Front End Web Development through Free Code Camp and other awesome online resources. In my spare time, I like to build web sites and watch the New York Jets. 
+
+Languages:
+Java
+JavaScript
+HTML
+CSS
+SQL
+Kicking Butt
