@@ -1,5 +1,4 @@
-/*Remove margins and padding from the list, 
-and add a black background color */
+
 #taskbar {
 	list-style-type: none;
 	margin: 0;
@@ -48,7 +47,10 @@ and add a black background color */
 #portcontent {
 	margin: auto;
 	padding-top: 50px;
-}
+	display: grid;
+	grid-template-columns: [col1] 16.66% [col2] 16.66% [col3] 16.66% [col4] 16.66% [col5] 16.66% [col6] 16.66%;
+	grid-template-rows: [row1] 16.66% [row2] 16.66% [row3] 16.66% [row4] 16.66% [row5] 16.66% [row6] 16.66%;
+}j
 
 #contact {
 	height: 850px;
@@ -63,7 +65,7 @@ and add a black background color */
 	padding: 7cm;
 }
 
-/*body {
+body {
 	font-size: 100%;
 }
 
@@ -93,5 +95,9 @@ li a {
     text-decoration: none;
 }
 
-
-*/
+hr {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px dotted #000000;
+}
