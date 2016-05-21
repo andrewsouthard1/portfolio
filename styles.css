@@ -26,7 +26,7 @@
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-image: url(https://pixabay.com/get/e837b90f2df7063ed1534705fb0938c9bd22ffd41db7124497f9c778a5/cup-of-coffee-1280537_1920.jpg);
+	background-image: url();
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -44,19 +44,21 @@
 	background-repeat: no-repeat;
 }
 
+.sizetest{
+	display: inline-block;
+}
+
 #portcontent {
 	margin: auto;
-	padding-top: 50px;
-	display: grid;
-	grid-template-columns: [col1] 16.66% [col2] 16.66% [col3] 16.66% [col4] 16.66% [col5] 16.66% [col6] 16.66%;
-	grid-template-rows: [row1] 16.66% [row2] 16.66% [row3] 16.66% [row4] 16.66% [row5] 16.66% [row6] 16.66%;
-}j
+	padding-top: 75px;
+}
+
 
 #contact {
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-image: url(https://pixabay.com/get/e136b20f20f01c22d9584518a33219c8b66ae3d11fb214439cf1c07d/bridge-833084_1920.jpg);
+	background-image: url();
 	background-size: cover;
 	background-repeat: no-repeat;
 }
