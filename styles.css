@@ -12,9 +12,10 @@
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-image: url(bkskyline.jpg);
+	background-image: url("bkskyline.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: #333;
 
 }
 
@@ -26,22 +27,27 @@
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-image: url();
+	color: #333;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color: white;
 }
 
 #aboutcontent {
-	padding: 200px 50px 50px 20px;
+	padding: 75px;
 }
+
 
 #portfolio {
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-color: #cdc9c9;
 	background-size: cover;
 	background-repeat: no-repeat;
+	overflow: auto;
+	background-color: #333;
+	color: white;
+
 }
 
 .sizetest{
@@ -51,6 +57,7 @@
 #portcontent {
 	margin: auto;
 	padding-top: 75px;
+	padding-bottom: 75px;
 }
 
 
@@ -58,13 +65,15 @@
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	background-image: url();
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color: white;
+	color: #333;
 }
 
 #contactcontent {
 	padding: 7cm;
+	background-color: white;
 }
 
 body {
@@ -77,16 +86,29 @@ h1.titlefont {
 
 h2 {
 	font-size: 3em;
+	
+
+}
+
+h4 {
+	
+}
+
+h6 {
+	
 }
 
 p {
 	font-size: 1.5em;
+	
 }
 
 li {
 	padding-left: 25px;
 	float: left;
 	font-size: 1.5em;
+	
+
 }
 
 li a {
@@ -95,6 +117,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
+
 }
 
 hr {
@@ -102,4 +126,14 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px dotted #000000;
+	color: white;
+}
+
+.button {
+	margin: 2px;
+}
+
+.rotate {
+	
+	transform: rotate(180deg);
 }
