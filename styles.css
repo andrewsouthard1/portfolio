@@ -3,9 +3,8 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-
+	overflow: hidden;	
+	background-color: #1f3956;
 }
 
 #home {
@@ -15,26 +14,27 @@
 	background-image: url("bkskyline.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: #333;
+	color: white;
 
 }
 
 #homecontent {
-	padding: 200px 50px 50px 20px;
+	padding: 100px 575px 5px 20px;
 }
 
 #about {
 	height: 850px;
 	text-align: center;
 	background: center fixed;
-	color: #333;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: white;
+	background-color: #0073e5;
+	background-image: url("coffee.jpg");
+	color: white;
 }
 
 #aboutcontent {
-	padding: 75px;
+	padding: 175px;
 }
 
 
@@ -46,6 +46,7 @@
 	background-repeat: no-repeat;
 	overflow: auto;
 	background-color: #333;
+	background-image: url("metalbackground.jpg");
 	color: white;
 
 }
@@ -68,34 +69,45 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: white;
-	color: #333;
+	color: white;
+	background-image: url(space.jpg);
 }
 
 #contactcontent {
 	padding: 7cm;
-	background-color: white;
 }
 
 body {
 	font-size: 100%;
+	text-shadow: -.5px 0 #444444, 0 .5px #444444, .5px 0 #444444, 0 -.5px #444444;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 
-h1.titlefont {
-	font-size: 6.25em;
+.titlefont {
+	font-size: 7em;
+	color: #1f3956;
+}
+
+.titlefonttwo {
+	font-size: 7em;
+	color: #4783c1;
 }
 
 h2 {
 	font-size: 3em;
-	
+
+}
+
+h3 {
 
 }
 
 h4 {
-	
+	color: white;
 }
 
 h6 {
-	
+	color: white;
 }
 
 p {
@@ -104,10 +116,10 @@ p {
 }
 
 li {
-	padding-left: 25px;
+	padding-left: 5%;
 	float: left;
 	font-size: 1.5em;
-	
+	color: #1f3956;
 
 }
 
@@ -121,14 +133,14 @@ li a {
 
 }
 
-hr {
-	width: 60%;
+/*hr {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px dotted #000000;
-	color: white;
-}
+	border: 1px dotted 	#4783c1;
 
+}
+*/
 .button {
 	margin: 2px;
 }
